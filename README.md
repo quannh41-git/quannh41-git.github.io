@@ -49,6 +49,16 @@ Build project
 ```
 - The preview blog will appear on directory `sphinx/_build/html/index.html` 
 
+## Deploy to Github
+Create `docs` folder to contain the html code
+```
+$ mkdir docs
+```
+Copy all files from `sphinx/_build/html/` to `docs`
+```
+$ cp -r sphinx/_build/html/* docs
+```
+Push code to github and on github repo, choose `Settings\Pages\Build and deployment\Branch\...docs`
 ## References
 - [Set Up Sphinx with Python](https://www.docslikecode.com/learn/01-sphinx-python-rtd/)
 - [sphinx_rtd_theme](https://github.com/readthedocs/sphinx_rtd_theme)
