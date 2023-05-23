@@ -62,6 +62,7 @@ Push code to github
 git push origin master
 ```
 On github repo, choose `Settings\Pages\Build and deployment\Branch\...docs`
+
 ## References
 - [Set Up Sphinx with Python](https://www.docslikecode.com/learn/01-sphinx-python-rtd/)
 - [sphinx_rtd_theme](https://github.com/readthedocs/sphinx_rtd_theme)
